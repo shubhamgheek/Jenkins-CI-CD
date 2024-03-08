@@ -12,7 +12,7 @@ public class JenkinsController {
 
     @GetMapping("/{name}")
     public ResponseEntity<?> getDemoResponse(@PathVariable String name) {
-        String result = "Hello" + name + ", Good to see you !";
+        String result = "Hello " + name + ", Good to see you !";
         return ResponseEntity.ok(result);
     }
 }
