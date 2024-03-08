@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Jenkins-CI-CD</name>
 	<description>Demo project for Jenkins-CI-CD</description>
+	<packaging>war</packaging>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -49,6 +50,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>Jenkins-CI-CD</finalName>
 	</build>
 
 </project>
